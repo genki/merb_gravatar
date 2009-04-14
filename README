@@ -1,0 +1,12 @@
+merb_gravatar
+=======
+
+A plugin for Merb framework that provides a helper method for GRAVATAR.
+
+USAGE:
+  
+  In your view file,
+
+  <%= gravatar email_address, size_in_pixel, :class => :avatar %>
+
+  Second and third parameters are optional.
